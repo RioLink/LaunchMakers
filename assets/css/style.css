@@ -9,16 +9,16 @@
 .blob2{width:480px;height:480px;background:rgba(122,63,224,.14);top:25%;right:-130px;animation:blobFloat 10s ease-in-out infinite;animation-delay:-4s}
 .blob3{width:360px;height:360px;background:rgba(47,200,255,.09);bottom:-60px;left:32%;animation:blobFloat 16s ease-in-out infinite;animation-delay:-8s}
 @keyframes blobFloat{0%,100%{transform:translate(0,0) scale(1)}33%{transform:translate(40px,-30px) scale(1.07)}66%{transform:translate(-25px,20px) scale(.94)}}
-.hero-v2-in{position:relative;z-index:2}
-.hero-agency-tag{display:inline-flex;align-items:center;gap:10px;padding:9px 20px;border:1px solid rgba(47,107,255,.38);border-radius:999px;background:rgba(47,107,255,.1);backdrop-filter:blur(10px);font-size:11px;font-weight:850;letter-spacing:.14em;text-transform:uppercase;color:#8bb6ff;margin-bottom:38px}
+.hero-v2-in{position:relative;z-index:2;text-align:center}
+.hero-agency-tag{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:9px 20px;border:1px solid rgba(47,107,255,.38);border-radius:999px;background:rgba(47,107,255,.1);backdrop-filter:blur(10px);font-size:11px;font-weight:850;letter-spacing:.14em;text-transform:uppercase;color:#8bb6ff;margin-bottom:38px}
 .hero-dot{width:8px;height:8px;border-radius:50%;background:#2f6bff;box-shadow:0 0 0 4px rgba(47,107,255,.25),0 0 14px rgba(47,107,255,.5);animation:heroDotPulse 2.5s ease-in-out infinite}
 @keyframes heroDotPulse{50%{box-shadow:0 0 0 9px rgba(47,107,255,.08),0 0 22px rgba(47,107,255,.25)}}
 .hero-big{display:block;font-size:clamp(64px,10.5vw,148px);font-weight:950;line-height:.88;letter-spacing:-.05em;margin-bottom:26px}
 .hero-big .w1{color:#fff;display:block}
 .hero-big .w2{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;display:block}
 .hero-big .w3{color:transparent;-webkit-text-stroke:2px rgba(255,255,255,.18);display:block}
-.hero-v2-desc{font-size:clamp(17px,2vw,21px);color:#b8b1ca;max-width:600px;margin-bottom:36px;line-height:1.65}
-.hero-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:36px}
+.hero-v2-desc{font-size:clamp(17px,2vw,21px);color:#b8b1ca;max-width:660px;margin:0 auto 36px;line-height:1.65}.hero-v2-in .actions{justify-content:center}
+.hero-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:36px;justify-content:center}
 .hero-chip{padding:7px 15px;border:1px solid rgba(255,255,255,.1);border-radius:999px;background:rgba(255,255,255,.04);color:#c5bfd5;font-size:12px;font-weight:750;transition:.25s}
 .hero-chip:hover{border-color:rgba(47,107,255,.5);background:rgba(47,107,255,.1);color:#fff}
 .hero-kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:52px}
